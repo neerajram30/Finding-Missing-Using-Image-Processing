@@ -6,7 +6,7 @@ function Homenavbar() {
     <div>
       <nav className='nav-bar'>
         <div className='nav-bar-container'>
-            <p>God's Eye</p>
+            <p  >God's Eye</p>
             <div className='modules'>
             <a href='/admin'>admin</a>
             <a href='/police'>Police</a>
