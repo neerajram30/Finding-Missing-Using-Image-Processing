@@ -1,4 +1,5 @@
 import {BrowserRouter as Router,Route, Routes} from 'react-router-dom'
+import Case from './Case';
 import PoliceLogin from './components/PoliceLogin/PoliceLogin';
 import Home from './Home';
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
             <Route exact path='/' element={<Home/>}/>
             <Route path='/police' element={<PoliceLogin/>}/>
+            <Route path='/case' element={<Case/>} />
 
             
             </Routes>
