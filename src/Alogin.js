@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
-import './index.css'
-import LoginForm from './components/LoginForm';
-function App() {
+import LoginForm from './components/PoliceLogin/LoginForm';
+function Login() {
   const adminUser = {
      email: "admin@123",
      password: "Aswin@13"
@@ -31,9 +30,10 @@ function App() {
       setUser({name:"",email:""});
     }
   return (
-    <div className="App">
+    
+    <div className='Login'>
       {(user.email !="" ) ?(
-        <div className="Welcome">
+        <div className='Welcome'>
           <h2>Welcome <span> {user.name} </span></h2>
           <button onClick = {Logout}>logout</button>
           </div>
@@ -44,5 +44,5 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
  
