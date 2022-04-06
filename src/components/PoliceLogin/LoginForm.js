@@ -1,5 +1,5 @@
 import React,{ useState} from 'react';
-import './Login.css'
+import './Police.css'
 
 function LoginForm({Login,error})
 {
@@ -12,6 +12,7 @@ function LoginForm({Login,error})
         Login(details);   
 
     }
+    
      return(
        
 
@@ -32,9 +33,15 @@ function LoginForm({Login,error})
                 <label htmlFor ="Password">Password</label>
                 <input type = "password" name = "password" id = "password" onChange = {e => setDetails ({...details,password:e.target.value})} value ={details.password} />
                 </div>
-        <input type = "submit" value = "login"> 
-       </input>
-        </div>
+        <input type = "submit" value = "Sign In"> 
+         
+        
+         </input>   
+        <button onClick ="submit">
+        Sign Up 
+        </button>
+     </div>
+       
     </form>
      )
     

@@ -1,5 +1,5 @@
 import React,{ useState} from 'react';
-import './Login.css'
+import './Admin.css'
 
 function LoginForm({Login,error})
 {
