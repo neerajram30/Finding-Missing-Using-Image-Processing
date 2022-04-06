@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat,sans-serif;
+
+}
+
+input,button{
+   appearance: none;
+   background: none;
+   border: none;
+   outline: none;
+
+}
+.Login{
+    height:  100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-image: url("./eye1.jpg");
+    background-size:cover;
+}
+form{
+    display: block;
+    position: relative;
+}
+form:after
+{
+    content: '';
+    display: block;
+    position:absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: 1;
+    background-image: linear-gradient(to bottom right, blue,red);
+
+}
+ 
+form .forminner{
+position: relative;
+display: block;
+background-color:silver;
+padding: 60px;
+z-index: 2;
+
+
+}
+
+form .forminner h2{
+    color:darkgoldenrod;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+form .forminner input
+{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 15px;
+   
+
+}
+
+form .forminner .formgroup
+{
+    display: block;
+    width: 300px; 
+    margin-bottom: 15px;
+
+}
+.forminner.formgroup label{
+    display: block;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+
+}
+.forminner.formgroup:focus-within label{
+    color: rgb(192, 46, 46);
+
+}
+form .forminner.formgroup input{
+    display: block;
+    width: 100%;
+    padding: 20px 25px; 
+    border-color:#f8f8f8;
+    border-radius: 10px;
+    transition: 0.4s;       
+}
+form  .forminner.formgroup input:focus {
+    box-Shadow:0px 0px 3px rgba(0,0,0,0.2);
+}
+
+form .forminner input[type="submit"]
+{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-image:linear-gradient(to left, blueviolet 50%, blueviolet 50%, red);
+    background-size: 200%;
+    background-position: 0%;
+    transition: 0.4s;
+    color: white;
+    font-weight:850;
+    cursor: pointer;
+
+}
+form .forminner input[type="submit"]
+{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-image:linear-gradient(to left, blueviolet 50%, blueviolet 50%, red);
+    background-size: 200%;
+    background-position: 0%;
+    transition: 0.4s;
+    color: white;
+    font-weight:850;
+    cursor: pointer;
+
+}
+form .forminner button
+{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-image:linear-gradient(to left, white 50%,white 50%,black);
+    background-size: 200%;
+    background-position: 0%;
+    transition: 0.4s;
+    color: white;
+    font-weight:850;
+    cursor: pointer;
+
+}
+
+
+
+
+form.forminner input[type="submit"]:hover{
+    background-position: 1;
+}
+.App .Welcome h2
+{
+    color: white;
+}

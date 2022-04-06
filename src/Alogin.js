@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import LoginForm from './components/PoliceLogin/LoginForm';
+import LoginForm from './components/Admin/LoginForm';
 function Login() {
   const adminUser = {
      email: "admin@123",
