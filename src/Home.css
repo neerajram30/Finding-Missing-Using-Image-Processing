@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.hi{
+	color: red;
+}
+.para{
+	color: white;
+
+}
+.vid
+{
+	position:;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.banner{
+	
+	width: 100%;
+	height: 200px;
+	position: relative;
+	
+	background: transparent;
+
+}
+.banner:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 200px;
+background-color: #2F3A8F;
+opacity: 0.5;
+}
+
+
+.banner p{
+	font-size: 2em;
+	color: white;
+	padding-left: 2%;
+	z-index: 1;
+	position: relative;
+
+
+}
+.banner h2{
+	color: white;
+	font-size: 4em;
+	padding: 2%;
+	font-family: 'Anton', sans-serif;
+	z-index: 1;
+	position: relative;
+
+
+}
