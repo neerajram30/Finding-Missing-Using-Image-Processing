@@ -15,7 +15,6 @@ function App() {
             <Route path='/police' element={<Login/>}/>
             <Route path='/admin' element={<ALogin/>}/>
             <Route path='/case'  element={<Case/>}/>
-
             
             </Routes>
           </Router>
