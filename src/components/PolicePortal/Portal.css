@@ -1,0 +1,7 @@
+.portal{
+height: 40vh;
+width: 100%;
+color: beige;
+background-color: blue;
+z-index: 100;
+}
